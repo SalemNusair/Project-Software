@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+[Create React App](https://github.com/facebookincubator/create-react-app).
+the link for the website:https://project-software-netneja-tutorial-salem-derhem.netlify.com
+This project was bootstrapped with
 -[Project software]([![Netlify Status](https://api.netlify.com/api/v1/badges/ddbdf1a7-e466-434e-9fbf-e677f7f3d557/deploy-status)](https://app.netlify.com/sites/project-software-netneja-tutorial-salem-derhem/deploys)).
 
 Below you will find some information on how to perform common tasks.<br>
