@@ -14,7 +14,8 @@
     "redux": "^4.0.5",
     "redux-firebase": "^0.3.3",
     "redux-firestore": "^0.11.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "validate-env": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
