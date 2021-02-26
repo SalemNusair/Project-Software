@@ -6,14 +6,12 @@ import "firebase/firestore";
 import "firebase/functions";
 import "firebase/storage";
 export const Config = {
-  apiKey: "AIzaSyA5FA5JJEUad8ojtsppUJH8i3fp1ORK2QA",
-  authDomain: "coms-practice.firebaseapp.com",
-  databaseURL: "https://coms-practice.firebaseio.com",
-  projectId: "coms-practice",
-  storageBucket: "coms-practice.appspot.com",
-  messagingSenderId: "49537411312",
-  appId: "1:49537411312:web:28e455b0f8e579a8287a35",
-  measurementId: "G-TQQQQPP8MX"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_BUCKE,
+  messagingSenderId:process.env.REACT_APP_MSG_SENDER_ID,
 };
 firebase.initializeApp(Config);
 //update from firebase on how to work with timestamp
