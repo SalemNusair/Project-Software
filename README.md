@@ -1,5 +1,5 @@
 ## Basic Project management web app
-### This app is to manage projects
+### This app is to manage projects and it's for learning react js
 ## Tech-Stack
 - React js
 - Firebase DB
