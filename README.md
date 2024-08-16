@@ -8,7 +8,7 @@
 - Redux
 ## Getting Started
 Clone the repo
-[https://github.com/Dark-Developer93/LeaveTracker.git](https://github.com/SalemNusair/Project-Software.git)
+[[https://github.com/Dark-Developer93/LeaveTracker.git](https://github.com/SalemNusair/Project-Software.git)](https://github.com/SalemNusair/Project-Software.git)
 
 Install packages yarn
 
