@@ -6,12 +6,12 @@ import "firebase/firestore";
 import "firebase/functions";
 import "firebase/storage";
 export const Config = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_DATABASE_URL,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_BUCKE,
-  messagingSenderId:process.env.REACT_APP_MSG_SENDER_ID,
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    databaseURL: import.meta.env.VITE_DATABASE_URL,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MSG_SENDER_ID,
 };
 firebase.initializeApp(Config);
 //update from firebase on how to work with timestamp
