@@ -1,5 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
+
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
@@ -26,11 +28,12 @@ const store = createStore(
 );
 //wait until the firebase ready and then load the component for security
 store.firebaseAuthIsReady.then(() => {
-    ReactDOM.render(
+    const container = document.getElementById("root");
+    const root = createRoot(container);
+    root.render(
         <Provider store={store}>
             <App />
-        </Provider>,
-        document.getElementById("root")
+        </Provider>
     );
     registerServiceWorker();
 });
