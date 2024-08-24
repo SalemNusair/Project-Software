@@ -1,28 +1,35 @@
 {
-  "name": "coms-project",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
-    "firebase": "^7.24.0",
-    "moment": "^2.24.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-redux": "^5.1.1",
-    "react-redux-firebase": "^2.2.4",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "1.1.5",
-    "redux": "^4.0.5",
-    "redux-firebase": "^0.3.3",
-    "redux-firestore": "^0.11.0",
-    "redux-thunk": "^2.3.0",
-    "validate-env": "^1.0.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "name": "coms-project",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "^4.11.2",
+        "@vitejs/plugin-react": "^4.3.0",
+        "firebase": "^7.24.0",
+        "moment": "^2.24.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-redux": "^5.1.1",
+        "react-redux-firebase": "^2.2.4",
+        "react-router-dom": "^5.1.2",
+        "redux": "^4.0.5",
+        "redux-firebase": "^0.3.3",
+        "redux-firestore": "^0.11.0",
+        "redux-thunk": "^2.3.0",
+        "standard-version": "^9.1.1",
+        "validate-env": "^1.0.2",
+        "vite": "^5.2.12"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "tsc && vite build",
+        "test": "vite test --env=jsdom",
+        "eject": "vite eject"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.4",
+        "@types/react-dom": "^18.3.0",
+        "typescript": "^5.5.4"
+    }
 }
